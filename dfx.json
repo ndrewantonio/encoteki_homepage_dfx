@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "encoteki_nextjs_backend": {
+      "main": "src/encoteki_nextjs_backend/main.mo",
+      "type": "motoko"
+    },
+    "encoteki_nextjs_frontend": {
+      "dependencies": [
+        "encoteki_nextjs_backend"
+      ],
+      "source": [
+        "src/encoteki_nextjs_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "encoteki_nextjs_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
