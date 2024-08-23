@@ -9,7 +9,7 @@
         "encoteki_nextjs_backend"
       ],
       "source": [
-        "src/encoteki_nextjs_frontend/dist"
+        "src/static"
       ],
       "type": "assets",
       "workspace": "encoteki_nextjs_frontend"
